@@ -5,7 +5,6 @@
 The goal of this project was to test a solution for automating planning assignments for a company’s staff using a simple test database.
   
 <h2>DATABASE</h2>
-  
 The database comprises five tables:<br><br>
 
 <b>employees</b><br> 
