@@ -15,11 +15,13 @@ Availability of each employee during a regular day (i.e. when the employee is no
   Availability intervals may be different for different days of the week.
 </li>
 <br>
-blocked_periods
+**blocked_periods**<br>
 Planned employee leaves (from date1 to date2 where date1 less or equal than date2).
-slot_timings
+<br>
+**slot_timings**<br>
 Time intervals – slots – within a specified day for which the availability of each employee is to be determined. Multiple slots are possible for each day (e.g. from 09:00 to 12:00 and from 13:00 to 16:30 on 2022-09-18). The slots may be different for different days.
-slot_available_staff
+<br>
+**slot_available_staff**
 Contains the information about the availability of each employee during each time slot.
 ## PROBLEM
 Within each slot, it is required to calculate when each employee is available based on both their regular availability (the staff_regular_availability table) and planned leaves (the blocked_periods table). The results of the calculation must be added to the slot_available_staff table automatically each time when a new slot is added to the slot_timings table.
