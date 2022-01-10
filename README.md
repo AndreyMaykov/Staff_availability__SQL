@@ -3,7 +3,7 @@
 ## OBJECTIVE
 The goal of this project was to test a solution for automating planning assignments for a company’s staff using a simple test database.
 ## DATABASE
-The database comprises five tables:
+The database comprises five tables:<br>
 employees 
 List of all the employees.
 staff_regular_availability
