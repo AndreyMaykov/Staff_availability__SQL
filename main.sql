@@ -85,8 +85,6 @@ When a new row (i.e. slot) is inserted into slot_timings table, the trigger inse
 		and planned leaves (the blocked_periods table);
 	2) adds the results of the calculation to the slot_available_staff table(by inserting the appropriate rows into it)
 */
-
-
 CREATE TRIGGER insert_into_slot_availability_table
 AFTER INSERT 
 ON slot_timings FOR EACH ROW
