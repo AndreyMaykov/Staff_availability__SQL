@@ -9,7 +9,7 @@ The goal of this project was to test a solution for automating planning assignme
 The database comprises five tables:<br><br>
 <b>employees</b><br> 
 List of all the employees.<br><br>
-**staff_regular_availability**<br><br>
+<b>staff_regular_availability**</b><br>
 Availability of each employee during a regular day (i.e. when the employee is not on leave for any reason) of the week.<br>
 <li>
   Several time intervals of availability are possible for a single employee.
