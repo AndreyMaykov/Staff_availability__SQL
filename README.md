@@ -1,4 +1,4 @@
-# Staff_availability__SQL
+<h1>Staff_availability__SQL</h1>
 
 ## OBJECTIVE
 The goal of this project was to test a solution for automating planning assignments for a company’s staff using a simple test database.
