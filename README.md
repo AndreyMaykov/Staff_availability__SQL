@@ -16,9 +16,9 @@ Availability of each employee during a regular day (i.e. when the employee is no
 </li>
 <br>
 <b>blocked_periods</b><br><br>
-Planned employee leaves (from date1 to date2 where date1 less or equal than date2).
+Planned employee leaves (from date1 to date2 where date1 &LessEqual date2).
 <br>
-<b>slot_timings</b><br><br>
+<b>slot_timings</b><br><br><br><br>
 Time intervals – slots – within a specified day for which the availability of each employee is to be determined. Multiple slots are possible for each day (e.g. from 09:00 to 12:00 and from 13:00 to 16:30 on 2022-09-18). The slots may be different for different days.
 <br>
 <b>slot_available_staff</b><br><br>
