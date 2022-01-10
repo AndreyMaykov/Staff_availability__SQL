@@ -30,7 +30,7 @@ Contains the information about the availability of each employee during each tim
 Within each slot, it is required to calculate when each employee is available based on both their regular availability (the staff_regular_availability table) and planned leaves (the blocked_periods table). The results of the calculation must be added to the slot_available_staff table automatically each time when a new slot is added to the slot_timings table.
 
 <h2>SOLUTION</h2>
-Trigger insert_into_slot_availability_table that both perform the calculations and inserts the required rows into slot_available_staff when a new row is added to slot_timings.
+Trigger insert_into_slot_availability_table that both performs the calculations and inserts the required rows into slot_available_staff when a new row is added to slot_timings.
 <br><br>
 
 <small>This database was created and tested in MariaDB v.10.4.22 using DBeaver v.21.3.0.202111281534</small>
