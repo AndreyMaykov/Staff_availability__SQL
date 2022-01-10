@@ -46,10 +46,6 @@ CREATE TABLE blocked_periods (
 		ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-
-/*
-							TABLES FOR SLOT PLANNING
-*/
 /*
 	Slots -- time parameters
 */
