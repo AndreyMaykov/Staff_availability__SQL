@@ -15,7 +15,7 @@ Availability of each employee during a regular day (i.e. when the employee is no
   Availability intervals may be different for different days of the week.
 </li>
 <br>
-### **blocked_periods**<br><br>
+<b>blocked_periods**</b><br><br>
 Planned employee leaves (from date1 to date2 where date1 less or equal than date2).
 <br>
 **slot_timings**<br><br>
