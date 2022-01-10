@@ -80,8 +80,9 @@ CREATE TABLE slot_available_staff (
 );
 
 /* 
-When a new row (i.e. slot) is inserted into slot_timings table, the rigger insert_into_slot_availability_table
-	1) calculates for the new slot when each employee is available based on both their regular availability (the staff_regular_availability table) and planned leaves (the blocked_periods table);
+When a new row (i.e. slot) is inserted into slot_timings table, the trigger insert_into_slot_availability_table
+	1) calculates for the new slot when each employee is available based on both their regular availability (the staff_regular_availability table) 
+		and planned leaves (the blocked_periods table);
 	2) adds the results of the calculation to the slot_available_staff table(by inserting the appropriate rows into it)
 */
 
