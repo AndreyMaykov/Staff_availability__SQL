@@ -32,4 +32,5 @@ Within each slot, it is required to calculate when each employee is available ba
 <h2>SOLUTION</h2>
 Trigger insert_into_slot_availability_table that both perform the calculations and inserts the required rows into slot_available_staff when a new row is added to slot_timings.
 <br><br>
-This database was created and tested in MariaDB v.10.4.22 using DBeaver v.21.3.0.202111281534  
+
+<small>This database was created and tested in MariaDB v.10.4.22 using DBeaver v.21.3.0.202111281534</small>
