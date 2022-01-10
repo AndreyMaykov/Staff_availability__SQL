@@ -4,8 +4,8 @@
 The goal of this project was to test a solution for automating planning assignments for a company’s staff using a simple test database.
 ## DATABASE
 The database comprises five tables:<br>
-employees 
-List of all the employees.
+**employees**<br> 
+List of all the employees.<br><br>
 staff_regular_availability
 Availability of each employee during a regular day (i.e. when the employee is not on leave for any reason) of the week.
 •	Several time intervals of availability are possible for a single employee.
