@@ -1,13 +1,13 @@
 <h1>Staff_availability__SQL</h1>
 
-<h2>OBJECTIVE></h2>
+<h2>OBJECTIVE</h2>
   
 The goal of this project was to test a solution for automating planning assignments for a company’s staff using a simple test database.
   
 <h2>DATABASE</h2>
   
 The database comprises five tables:<br><br>
-<b>employees<b><br> 
+<b>employees</b><br> 
 List of all the employees.<br><br>
 **staff_regular_availability**<br><br>
 Availability of each employee during a regular day (i.e. when the employee is not on leave for any reason) of the week.<br>
