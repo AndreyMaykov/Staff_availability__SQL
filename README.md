@@ -27,10 +27,10 @@ Time intervals – slots – within a specified day for which the availability o
 <b>slot_available_staff</b><br>
 Contains the information about the availability of each employee during each time slot.<br>
 <h2>PROBLEM</h2>
-For any slot, it is required to calculate when each employee is available based on both their regular availability (the staff_regular_availability table) and planned leaves (the blocked_periods table). The results of the calculation must be added to the slot_available_staff table automatically every time a new slot is added to the slot_timings table.
+For any slot, it is required to calculate when each employee is available based on both their regular availability (the&nbsp<b>staff_regular_availability</b> table) and planned leaves (the <b>the blocked_periods</b> table). The results of the calculation must be added to the <b>slot_available_staff</b> table automatically every time a new slot is added to the <b>slot_timings table</b>.
 
 <h2>SOLUTION</h2>
-Trigger insert_into_slot_availability_table that both performs the calculations and inserts the required rows into slot_available_staff when a new row is added to slot_timings.
+Trigger <b>insert_into_slot_availability_table</b> that both performs the calculations and inserts the required rows into <b>slot_available_staff</b> when a new row is added to <b>slot_timings</b>.
 <br><br>
 
 <small>This database was created and tested in MariaDB v.10.4.22 using DBeaver v.21.3.0.202111281534</small>
